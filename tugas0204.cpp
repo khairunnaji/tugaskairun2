@@ -11,5 +11,7 @@ using namespace std;
 	double BPR=JP*500;
 	cout<<"Biaya Parket (Rp)	:"<<BPR<<endl;
 	int BPS=LR*20;
-	cout<<"Biaya Pasang	(Rp)			:"<<BPS<<endl;
+	cout<<"Biaya Pasang	(Rp)	:"<<BPS<<endl;
+	double TB=BPR+BPS;
+	cout<<"Total Biaya	(Rp)	:"<<TB<<endl;
 	}
