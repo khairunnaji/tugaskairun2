@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+int main(){
 	double ton=35273.92;
 	
 	double berat;
 	cin>>berat;
 	
 	double ounce=1/ton;
-	double beratton=berat*ounce;
+	double beratTon=berat*ounce;
 	
+	cout<<beratTon<<endl;
 }
