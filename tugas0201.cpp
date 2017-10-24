@@ -2,10 +2,12 @@
 using namespace std;
 
 int main () {
-	nilai=nilai+1;
 	int nilai;
-	int 1nilai;
+	int Nilai = 1;
 	
-	cout<<nilai;
-	cout<<1nilai;
+	cout << "Masukkan nilai = ";
+	cin >> nilai;
+	nilai= nilai + Nilai;
+	
+	cout << nilai;
 }
